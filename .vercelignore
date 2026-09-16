@@ -1,0 +1,10 @@
+# Vercel 部署排除项：只发布工具本体，不带自检脚本与本地元数据
+.workbuddy/
+.git/
+.gitignore
+.vercelignore
+vercel.json
+node_modules/
+*.md
+verify-*.js
+bench-multi.js
